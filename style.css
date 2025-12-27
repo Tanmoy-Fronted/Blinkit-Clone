@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+
+.headerAddress {
+    padding: 20px 30px;
+
+}
+
+.headerAddress h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.headerAddress p {
+    font-size: 14px;
+}
+
+.searchBox {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #f4f4f4;
+}
+
+.searchBox button {
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.searchBox input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.searchBox input:focus {
+    outline: none;
+}
+
+.headerBtn {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.headerBtn button {
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.headerBtn button:last-child {
+    background-color: #0C831F;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bannerSection {
+    margin: auto;
+    max-width: 1280px;
+
+}
+
+.bannerSection img {
+    width: 100%;
+}
+
+.orderBanner {
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-evenly;
+}
+
+.orderBannerItems {
+    flex-basis: 27%;
+    margin: 1%;
+}
+
+.orderBannerItems img {
+    width: 100%;
+}
+
+.categorySection {
+    max-width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+
+}
+
+.categoryItems {
+    flex-basis: 9.5%;
+}
+
+.categoryItems img {
+    width: 100%;
+}
+
+.headingRow {
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+}
+
+.headingRow h2 {
+    font-size: 22px;
+
+}
+
+.headingRow a {
+    color: #328839;
+    font-size: 18px;
+    position: relative;
+    left: 73%;
+}
+
+.productRow {
+    max-width: 1280px;
+    /* width: 100%; */
+    margin: 30px 50px;
+    display: flex;
+    gap: 2%;
+
+}
+
+.productItems {
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #848080;
+
+}
+
+.productImg {
+    text-align: center;
+    padding: 15px;
+
+}
+
+.productItems p {
+    background-color: #f8f8f8;
+    display: flex;
+    width: 60px;
+    gap: 5px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: left;
+}
+
+.productContent {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.productContent h3 {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.productContent p {
+    font-size: 14px;
+    color: #848080;
+}
+
+.btn-price-outer {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-price-outer button {
+    border: 1px solid #328839;
+    padding: 5px 15px;
+    border-radius: 7px;
+    background-color: #f7fff9;
+}
+footer{
+    padding: 40px 0px 0px 0px;
+}
+.footer-mid{
+    max-width: 1280px;
+    margin: auto;
+}
+.footer-mid-row1{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+    
+.footer-mid-row1-left{
+    flex-basis: 30%;
+}
+.footer-mid-row1-right{
+    flex-basis: 70%;
+}
+.usefulLinks{
+    display: flex;
+
+}
+.usefulLinks ul{
+    flex-basis: 33%;
+    list-style: none;
+}
+.usefulLinks ul li a{
+font-size: 14px;
+display: block;
+margin-bottom: 15px;
+color: rgb(102,102,102);
+}
+
+.footer-mid-row1-left h3{
+    margin-bottom: 20px;
+}
+.categoriesHeadingRow{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
+    align-items: center;
+}
+.footer-mid-row3 p{
+
+    padding: 20px 100px;
+    line-height: 20px;
+    font-size: 14px;
+    color: rgb(102,102,102);
+}
+.footer-mid-row2{
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 20px 0px;  
+    display: flex;
+    align-items: center;
+}
+.footer-mid-row2 p{
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(102,102,102);
+}
+.appIcons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-basis: 30%;
+}
